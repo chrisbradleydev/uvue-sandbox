@@ -8,6 +8,7 @@
             <AisSearchBox />
             <AisStats />
             <SortBy />
+            <SelectedFilters />
             <RefinementList />
             <Hits :sweetwater-inventory="sweetwaterInventory" />
             <Pagination />
@@ -23,6 +24,7 @@ import {
     Hits,
     Pagination,
     RefinementList,
+    SelectedFilters,
     SortBy,
 } from '@/components';
 
@@ -36,6 +38,7 @@ export default {
         Hits,
         Pagination,
         RefinementList,
+        SelectedFilters,
         SortBy,
     },
     data() {
