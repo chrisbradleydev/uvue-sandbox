@@ -1,15 +1,17 @@
 <template>
     <div>
         <AisCurrentRefinements />
+        <AisClearRefinements />
     </div>
 </template>
 
 <script>
-import { AisCurrentRefinements } from 'vue-instantsearch';
+import { AisClearRefinements, AisCurrentRefinements } from 'vue-instantsearch';
 
 export default {
     name: 'SelectedFilters',
     components: {
+        AisClearRefinements,
         AisCurrentRefinements,
     },
 };
