@@ -22,7 +22,7 @@ export default ({ context, indexName }) => ({
             });
 
             if (typeof history === 'object') {
-                history.pushState(routeState, null, query);
+                history.pushState(routeState, null, query || location.pathname);
             }
         },
         createURL(routeState) {
