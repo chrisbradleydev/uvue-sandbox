@@ -27,7 +27,7 @@
         "koa-static": "^5.0.0",
         "serve-static": "^1.13.2",
         "vue": "^2.6.11",
-        "vue-instantsearch": "^3.0.3",
+        "vue-instantsearch": "^3.1.0",
         "vue-router": "^3.3.4"
     },
     "devDependencies": {
