@@ -16,7 +16,7 @@
     "dependencies": {
         "@uvue/core": "^0.1.0",
         "@uvue/server": "^0.1.0",
-        "algoliasearch": "^4.3.0",
+        "algoliasearch": "4.4.0",
         "compression": "^1.7.3",
         "connect": "^3.6.6",
         "cookie-parser": "^1.4.3",
@@ -27,7 +27,7 @@
         "koa-static": "^5.0.0",
         "serve-static": "^1.13.2",
         "vue": "^2.6.11",
-        "vue-instantsearch": "^3.1.0",
+        "vue-instantsearch": "3.2.0",
         "vue-router": "^3.3.4"
     },
     "devDependencies": {
