@@ -22,7 +22,14 @@ export default ({ context, indexName }) => ({
             });
 
             if (typeof history === 'object') {
-                history.pushState(routeState, null, query || location.pathname);
+                // write query string if route would change only:
+                if (query && location.search !== query) {
+                    // query is different
+                    history.pushState(routeState, null, query);
+                } else (location.search) {
+                    // query string needs to be removed
+                    history.pushState(routeState, null, location.pathname);
+                }
             }
         },
         createURL(routeState) {
