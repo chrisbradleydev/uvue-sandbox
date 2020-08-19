@@ -26,7 +26,7 @@ export default ({ context, indexName }) => ({
                 if (query && location.search !== query) {
                     // query is different
                     history.pushState(routeState, null, query);
-                } else (location.search) {
+                } else if (location.search) {
                     // query string needs to be removed
                     history.pushState(routeState, null, location.pathname);
                 }
